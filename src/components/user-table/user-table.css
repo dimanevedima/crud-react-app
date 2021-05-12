@@ -1,0 +1,114 @@
+.UserTable {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.a{
+  margin: 0;
+  padding: 0;
+  border: aqua;
+}
+
+.aa{
+  border: 1px solid red;
+  padding: 0;
+  margin: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.app-list-item {
+  font-size: 1.25rem;
+
+}
+
+.app-list-item button {
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+
+}
+.app-list-item button:focus {
+    box-shadow: none;
+    outline: none;
+}
+.app-list-item .btn-star {
+    color: #FFD700;
+
+}
+.app-list-item .btn-trash {
+    color: red;
+}
+.app-list-item .fa-heart {
+    /* width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;*/
+    color: black;
+    /*transition: 0.3s all;
+    transform: translateX(30px);
+    opacity: 0;*/
+}
+
+.app-list-item-label {
+  display: block;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.5s all;
+}
+
+ .app-list-item.like .fa-heart {
+    /* opacity: 1;
+    transform: translateX(0px); */
+    color: red;
+}
+
+.app-list-item.important .app-list-item-label {
+  color: #FFD700;
+}
+
+.app-list-item.important .btn-star {
+    color: #aeaeae;
+}
